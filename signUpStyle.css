@@ -1,0 +1,77 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div.main {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(-45deg, #23D5AB, #0393c7, #E73C7E, #EE7752);
+    background-size: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+div.MyForm {
+    color: wheat;
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 120px;
+    margin-bottom: 94px;
+}
+
+div.MyForm>img {
+    position: relative;
+    bottom: 50px;
+    margin: 10px 80px;
+    width: 90px;
+    height: 90px;
+}
+
+div.MyForm>form>input[type="text"], div.MyForm>form>input[type="email"], div.MyForm>form>input[type="password"] {
+    position: relative;
+    bottom: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: grey;
+    font-weight: 600;
+    font-family: "Serif";
+}
+
+div.MyForm>h3 {
+    position: relative;
+    bottom: 50px;
+    font-family: Sans-serif;
+}
+
+div.MyForm>form>button {
+    position: relative;
+    bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div.MyForm>form>button:hover {
+    background-color: royalblue;
+}
